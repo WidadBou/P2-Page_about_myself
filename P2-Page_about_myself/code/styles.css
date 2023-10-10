@@ -1,0 +1,80 @@
+/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+
+.top {
+  padding: 20px;
+  background-image: url(images/algues.jpeg);
+  /*background-color: rgb(144, 232, 144);*/
+  font-style: white;
+  /*font-display: WHITE;*/
+  /*color: rgb(241, 245, 249);*/
+}
+
+.middle {
+  background-color: white;
+}
+
+.down {
+  background-color: #90e890;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Linkedin Logo*/
+.fa-linkedin {
+  background: #007bb5;
+  background-size: auto;
+  color: white;
+  top: 100%;
+  left: 100%;
+  width: 5%;
+  border-radius: 100px;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: unset;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 20%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border: white;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.btn {
+  position: fixed;
+}
